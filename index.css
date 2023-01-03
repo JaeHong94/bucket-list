@@ -32,3 +32,20 @@
     background-size: cover;
     background-position: center;
 }
+.snowflake {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: -8px;
+}
+@keyframes fall {
+    from {
+
+    }
+    to{
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
